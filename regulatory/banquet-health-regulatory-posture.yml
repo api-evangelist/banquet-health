@@ -1,0 +1,40 @@
+generated: '2026-09-27'
+method: searched
+source: https://www.banquethealth.com/privacy-policy
+signals:
+  data_subject_request:
+    url: https://www.banquethealth.com/privacy-policy
+    section: GDPR Compliance
+    note: States that GDPR data subject rights are recognized, indicating a process for subject requests.
+    evidence:
+      - source: https://www.banquethealth.com/privacy-policy
+        http_status: 200
+        fetched: /tmp/privacy.html
+        quote: "Compliance with European Union's General Data Protection Regulation including data subject rights"
+  subprocessors:
+    url: https://www.banquethealth.com/privacy-policy
+    section: Data Storage
+    note: Indicates use of third‑party cloud services for data storage, implying subprocessors.
+    evidence:
+      - source: https://www.banquethealth.com/privacy-policy
+        http_status: 200
+        fetched: /tmp/privacy.html
+        quote: "Personal data stored on servers in the United States with cloud-based database management services"
+  data_residency:
+    url: https://www.banquethealth.com/privacy-policy
+    section: Data Storage
+    note: Specifies that personal data resides on US servers.
+    evidence:
+      - source: https://www.banquethealth.com/privacy-policy
+        http_status: 200
+        fetched: /tmp/privacy.html
+        quote: "Personal data stored on servers in the United States with cloud-based database management services"
+  data_retention:
+    url: https://www.banquethealth.com/privacy-policy
+    section: Data Storage
+    note: Implies retention on US cloud infrastructure; no explicit retention period stated.
+    evidence:
+      - source: https://www.banquethealth.com/privacy-policy
+        http_status: 200
+        fetched: /tmp/privacy.html
+        quote: "Personal data stored on servers in the United States with cloud-based database management services"

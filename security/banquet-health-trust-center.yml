@@ -1,0 +1,14 @@
+generated: '2026-09-27'
+method: searched
+probe: true
+source: https://www.banquethealth.com/security
+url: https://www.banquethealth.com/security
+certifications:
+- SOC 2
+- HIPAA
+evidence:
+- source: https://www.banquethealth.com/security
+  keywords:
+  - soc 2
+  - soc2
+  - hipaa

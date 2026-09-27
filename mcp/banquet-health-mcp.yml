@@ -1,0 +1,8 @@
+generated: "2026-09-27"
+method: none
+source: preflight
+type: MCPServer
+deployment:
+  mode: none
+  auth: unknown
+  verified: probed
